@@ -1,0 +1,26 @@
+{
+  "name": "node_version",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon --watch \"src/**/*.ts\" --exec \"ts-node\" src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/mongoose": "^5.11.97",
+    "mongodb": "^6.3.0",
+    "node-telegram-bot-api": "^0.64.0",
+    "typescript": "^5.3.3"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.64.1",
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
